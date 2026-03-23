@@ -5,7 +5,7 @@ app = FastAPI(title="Sample App")
 
 @app.get("/")
 def root():
-    return {"message": "Hello from dev branch of Sample App - Dev Branch AUTO-Deployment!"}
+    return {"message": "Hello from stg branch of Sample App - Staging Branch!"}
 
 
 @app.get("/health")
