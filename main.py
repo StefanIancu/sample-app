@@ -10,7 +10,7 @@ if os.getenv("FORCE_CRASH") == "true":
 
 @app.get("/")
 def root():
-    return {"message": "Hello from Sample App - Deployment test sample app!"}
+    return {"message": "Hello from Sample App - Deployment test sample app version 1!"}
 
 
 @app.get("/health")
