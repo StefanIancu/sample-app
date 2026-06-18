@@ -27,3 +27,5 @@ python job.py
 It prints run metadata and exits 0. To test the failure path, set
 `JOB_SHOULD_FAIL=true` on the environment and run it again (exits 3). Set
 `JOB_MESSAGE` to confirm env vars are injected into the Job.
+
+<!-- orkestr pr_opened reaction smoke test -->
