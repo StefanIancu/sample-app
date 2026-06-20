@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # NOTE: deliberate break to test orkestr's consecutive-failure help banner.
 # This file does not exist in the repo, so the build fails at this COPY.
-COPY this-file-does-not-exist.txt ./
+#COPY this-file-does-not-exist.txt ./
 
 # Bring in the whole app, including job.py so orkestr Jobs can run it inside
 # this same image.
